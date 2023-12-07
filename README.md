@@ -1,2 +1,2 @@
 # Cowtwin
-Um site de chat que vai apenas usa apenas senha pra ser logado
+Um site de chat que vai apenas usa senha pra ser logado
