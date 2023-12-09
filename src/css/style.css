@@ -4,8 +4,26 @@ body, html {
 }
 
 body {
-    background: #F6F6F6;
+    background: var(--backround-main);
     font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --backround-main: #14162E;
+
+    --color-text: #fff; 
+
+    --color-span: #4461F2;
+}
+
+.modoclaro {
+    --backround-main: #F6F6F6; /* imagem de fundo */
+    
+    --color-text: #000; /* cor do texto geral */
+
+    --color-span: #0983F5; /* cor do texto em azul */
+
+    
 }
 
 .inicio {
@@ -78,11 +96,15 @@ body {
 
     padding-bottom: 46px;
     margin: 0;
+
+    color: var(--color-text);
 }
 
 .conteudo div p {
     font-size: 22px;
     font-weight: 600;
+
+    color: var(--color-text);
 }
 
 .conteudo div p span {
