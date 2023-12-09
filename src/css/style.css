@@ -30,6 +30,10 @@ body {
     margin: 0 0 90px 0;
 }
 
+.trocademodos {
+    background-image: url(/src/img/lua.png);
+}
+
 .inicio nav {
     text-align: end;
 }
